@@ -206,12 +206,3 @@ i {
     line-height: 40px;
     font-style: italic
 }
-
-.imagen_final {
-    display: grid;
-    grid-area: 1 / 2 / 3;
-    grid-row: 1 / 2 / 3;
-    width: 500px;
-    height: 400px;
-    background-color: brown;
-}
