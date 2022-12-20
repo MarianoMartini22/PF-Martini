@@ -206,3 +206,149 @@ i {
     line-height: 40px;
     font-style: italic
 }
+
+.imagenes_finales_index {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1500px;
+    height: 200px;
+}
+
+.seguinosEn {
+    text-transform: uppercase;
+    padding: 80px; 
+    text-align: center;
+}
+
+.colorIcono {
+    background-color: rgb(250, 250, 250);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 100%;
+    padding-top: 100px;
+    justify-content: end
+
+}
+
+.fondoBody {
+    background-image: linear-gradient(to bottom, rgb(250, 250, 250) , cyan);
+    }
+
+@media screen and (max-width: 479px) {
+ 
+    .colorIcono {
+        background-color: rgb(250, 250, 250);
+        width: 100%;
+    }
+        
+    .navegacion {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navegacion li a {
+        flex-direction: row;
+        padding: 1px;
+        border-radius: 0%;
+    }
+
+    .imagen_principal img {
+        width: 350px;
+        height: 250px;
+        margin-inline: 10px;
+        justify-items: left;
+        padding: 5%;
+    }
+ 
+    .imagenes_finales_index {
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        height: 700px;
+    }
+    .tiposDeTratamientos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        font-size: medium;
+        width: 78%;
+        padding: 20%;
+        line-height: 20px;
+        font-style: italic
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 20%;
+        padding-top: 100px;
+        width: 10%;
+        justify-content: left
+    
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+    .colorIcono {
+        background-color: rgb(250, 250, 250);
+        width: 70%;
+    }
+     
+    .imagen_principal img {
+        width: 450px;
+        height: 300px;
+        margin-inline: 50px;
+        justify-items: center;
+    }
+ 
+    .imagenes_finales_index {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 50% 50% 40%;
+        width: 50%;
+        height: 300px;
+        grid-template-rows: 50% 50%;
+        justify-content: center
+    
+    }
+
+    .parrafoInicio {
+        width: 45%;
+        font-size: x-large;
+        text-align: center;
+        margin: 100px;
+        justify-content: center;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 100%;
+        padding-top: 100px;
+        width: 50%;
+        justify-content: start
+    
+    }
+    .tiposDeTratamientos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        font-size: x-large;
+        width: 100%;
+        padding: 20%;
+        line-height: 20px;
+        font-style: italic
+    }
+}
