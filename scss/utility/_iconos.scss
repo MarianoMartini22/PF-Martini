@@ -1,0 +1,23 @@
+.redes_sociales {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 5%;
+}
+
+i {
+    font-size: 50px;
+}
+
+.obras_sociales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colorIcono {
+    background-color: rgb(250, 250, 250);
+}
+

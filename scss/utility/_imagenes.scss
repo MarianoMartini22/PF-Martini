@@ -1,0 +1,40 @@
+.requisitosTurnos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: large;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 350px;
+    padding: 5%;
+}
+
+.imagenesTurnos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    align-items: center
+}
+
+.imagenesNosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 10px;
+    font-size: large;
+    text-align: start
+}
+
+.imagenes_finales_index {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1500px;
+    height: 200px;
+}
+
