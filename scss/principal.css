@@ -38,9 +38,11 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 footer div {
   width: 100%;
 }
+
 footer div p {
   text-align: center;
   justify-content: center;
@@ -50,9 +52,11 @@ header {
   background-color: #fafafa;
   display: flex;
 }
+
 header div {
   width: 50%;
 }
+
 header div a img {
   padding: 3px;
   width: 30%;
@@ -104,4 +108,6 @@ h1 {
 
 i {
   font-size: 50px;
-}/*# sourceMappingURL=principal.css.map */
+}
+
+/*# sourceMappingURL=principal.css.map */
