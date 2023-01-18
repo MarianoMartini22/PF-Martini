@@ -1,25 +1,18 @@
 @media screen and (max-width: 768px) {
 
     .colorIcono {
-        background-color: rgb(250, 250, 250);
+        background-color: $primary;
         width: 70%;
     }
 
     .imagenes_finales_index {
-        display: flexbox;
         flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        align-items: left;
-        width: 50%;
-        height: 700px;
+        flex-direction: column;
+        gap: 30px;
     }
 
     .parrafoInicio {
-        width: 45%;
-        font-size: x-large;
-        text-align: center;
-        margin: 100px;
+        width: 90%;
         justify-content: center;
     }
 
@@ -44,13 +37,18 @@
         line-height: 20px;
         font-style: italic
     }
+
+    .parrafoInicio {
+        text-align: left;
+    }
+
 }
 
 
 @media screen and (max-width: 479px) {
 
     .colorIcono {
-        background-color: rgb(250, 250, 250);
+        background-color: $primary;
         width: 100%;
     }
 
@@ -65,9 +63,9 @@
         padding: 1px;
         border-radius: 0%;
     }
-    
+
     .imagenes_finales_index {
-        display: flexbox;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         width: 350px;
@@ -94,6 +92,26 @@
         padding-top: 100px;
         width: 50%;
         justify-content: start
-    
     }
+
+    .seguinosEn {
+        margin: 50%;
+        justify-items: left;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    section {
+        flex-direction: column;
+
+    }
+
+    .asideContacto {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
 }

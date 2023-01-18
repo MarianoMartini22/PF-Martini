@@ -1,19 +1,17 @@
 .contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-content: space-between;
     padding: 10px;
-    width: 70%;
+    @include ancho (70%);
     height: 500px;
 }
 
 .asideContacto {
-    display: grid;
-    justify-items: flex-end;
+    display: flex;
+    margin: 0 30px 0 30px;
     text-align: center;
-    padding-top: 80px;
-    grid-template-columns: 1030px;
-    grid-template-rows: 300px
+    font-size: map-get($tamanoFuentes, larga);
 }

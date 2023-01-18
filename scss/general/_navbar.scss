@@ -5,7 +5,7 @@
 }
 
 nav {
-    width: 50%;
+    @include ancho (50%);
 }
 
 .navegacion {

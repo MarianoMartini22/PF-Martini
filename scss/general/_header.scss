@@ -1,15 +1,15 @@
 header {
-    background-color: #fafafa;
+    background-color: $secondary;
     display: flex;
 
     div {
-        width: 50%;
+        @include ancho (50%);
 
         a {
 
             img {
                 padding: 3px;
-                width: 30%;
+                @include ancho (30%);
             }
         }
     }

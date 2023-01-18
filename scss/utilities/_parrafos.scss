@@ -1,7 +1,7 @@
 .parrafoInicio {
     display: flex;
     margin: 5%;
-    font-size: x-large;
+    font-size: map-get($tamanoFuentes, extraLarga);
     text-align: center;
     padding: 1%;
 }
@@ -11,11 +11,11 @@
     text-align: center;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: large;
+    font-size: map-get($tamanoFuentes, larga);
     font-variant-position: super;
     height: 10px;
     margin: 10%;
-    width: 80%;
+    @include ancho (80%);
     padding: 4%
 }
 

@@ -13,103 +13,18 @@ a {
   text-decoration: none;
 }
 
-.carousel {
-  display: flex;
-  width: 110%;
-  height: 550px;
-  align-items: center;
-  margin-left: 170px;
-}
-
-.fondoBody {
-  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190629/pngtree-white-festive-seamless-pattern-image_263333.jpg);
-}
-
-header {
-  background-color: rgb(250, 250, 250);
-  display: flex;
-}
-
-.colorIcono {
-  background-color: rgb(250, 250, 250);
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-}
-footer div {
-  width: 100%;
-}
-footer div p {
-  text-align: center;
-  justify-content: center;
-}
-
-.seguinosEn {
-  text-transform: uppercase;
-  padding: 80px;
-  text-align: center;
-}
-
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: 100%;
-  padding-top: 100px;
-  justify-content: end;
-}
-
-header {
-  background-color: #fafafa;
-  display: flex;
-}
-header div {
-  width: 50%;
-}
-header div a img {
-  padding: 3px;
-  width: 30%;
-}
-
-.navBar {
-  display: flex;
-  align-items: center;
-  justify-items: right;
-}
-
-nav {
-  width: 50%;
-}
-
-.navegacion {
-  display: flex;
-  flex-wrap: nowrap;
-  height: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 @media screen and (max-width: 768px) {
   .colorIcono {
     background-color: rgb(250, 250, 250);
     width: 70%;
   }
   .imagenes_finales_index {
-    display: flexbox;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: left;
-    width: 50%;
-    height: 700px;
+    flex-direction: column;
+    gap: 30px;
   }
   .parrafoInicio {
-    width: 45%;
-    font-size: x-large;
-    text-align: center;
-    margin: 100px;
+    width: 90%;
     justify-content: center;
   }
   .footer {
@@ -132,6 +47,9 @@ nav {
     line-height: 20px;
     font-style: italic;
   }
+  .parrafoInicio {
+    text-align: left;
+  }
 }
 @media screen and (max-width: 479px) {
   .colorIcono {
@@ -149,7 +67,7 @@ nav {
     border-radius: 0%;
   }
   .imagenes_finales_index {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 350px;
@@ -175,7 +93,99 @@ nav {
     width: 50%;
     justify-content: start;
   }
+  .seguinosEn {
+    margin: 50%;
+    justify-items: left;
+  }
+  .seguinosEn p {
+    text-align: center;
+  }
+  section {
+    flex-direction: column;
+  }
+  .asideContacto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
 }
+.carousel {
+  margin-left: 30%;
+}
+
+.fondoBody {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190629/pngtree-white-festive-seamless-pattern-image_263333.jpg);
+}
+
+header {
+  background-color: rgb(250, 250, 250);
+}
+
+.colorIcono {
+  background-color: rgb(250, 250, 250);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer div {
+  height: auto;
+  width: 100%;
+}
+footer div p {
+  text-align: center;
+  justify-content: center;
+}
+
+.seguinosEn {
+  text-transform: uppercase;
+  padding: 80px;
+  text-align: center;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 100%;
+  padding-top: 100px;
+  justify-content: flex-end;
+}
+
+header {
+  background-color: #fafafa;
+  display: flex;
+}
+header div {
+  height: auto;
+  width: 50%;
+}
+header div a img {
+  padding: 3px;
+  height: auto;
+  width: 30%;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-items: right;
+}
+
+nav {
+  height: auto;
+  width: 50%;
+}
+
+.navegacion {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 section {
   display: flex;
 }
@@ -197,6 +207,7 @@ section {
   font-variant-position: super;
   height: 10px;
   margin: 10%;
+  height: auto;
   width: 80%;
   padding: 4%;
 }
@@ -232,6 +243,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  height: auto;
   width: 100%;
   justify-content: flex-end;
   padding: 5%;
@@ -257,6 +269,7 @@ i {
   flex-wrap: nowrap;
   font-size: large;
   justify-content: space-evenly;
+  height: auto;
   width: 100%;
   height: 350px;
   padding: 5%;
@@ -266,6 +279,7 @@ i {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  height: auto;
   width: 100%;
   height: 100px;
   padding: 10px;
@@ -284,29 +298,37 @@ i {
 }
 
 .imagenes_finales_index {
-  display: flexbox;
+  display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 1500px;
-  height: 200px;
+  height: auto;
+  width: 100%;
+}
+
+.coberturasImg:hover, .coberturasImg-yellow:hover {
+  background-color: grey;
+  opacity: 0.6;
+}
+
+.coberturasImg-yellow:hover {
+  background-color: yellow;
 }
 
 .contacto {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-content: space-between;
   padding: 10px;
+  height: auto;
   width: 70%;
   height: 500px;
 }
 
 .asideContacto {
-  display: grid;
-  justify-items: flex-end;
+  display: flex;
+  margin: 0 30px 0 30px;
   text-align: center;
-  padding-top: 80px;
-  grid-template-columns: 1030px;
-  grid-template-rows: 300px;
+  font-size: large;
 }/*# sourceMappingURL=principal.css.map */
