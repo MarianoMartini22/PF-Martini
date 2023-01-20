@@ -50,6 +50,30 @@ a {
   .parrafoInicio {
     text-align: left;
   }
+  .imagenesNosotros {
+    width: 10px;
+    height: auto;
+    margin-top: 5%;
+  }
+  .parrafoNosotros {
+    width: 250px;
+    height: auto;
+  }
+  .obras_sociales {
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    margin: 100px;
+  }
+  .parrafoTurnos {
+    width: 30%;
+    height: auto;
+    text-justify: auto;
+  }
+  .requisitosTurnos {
+    width: 30%;
+    height: auto;
+  }
 }
 @media screen and (max-width: 479px) {
   .colorIcono {
@@ -94,8 +118,7 @@ a {
     justify-content: start;
   }
   .seguinosEn {
-    margin: 50%;
-    justify-items: left;
+    justify-items: center;
   }
   .seguinosEn p {
     text-align: center;
@@ -107,6 +130,10 @@ a {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+  }
+  .requisitosTurnos {
+    width: 10%;
+    height: auto;
   }
 }
 .carousel {
@@ -201,15 +228,11 @@ section {
 .parrafoTurnos {
   display: flex;
   text-align: center;
-  flex-direction: row;
   justify-content: space-evenly;
   font-size: large;
-  font-variant-position: super;
-  height: 10px;
   margin: 10%;
   height: auto;
-  width: 80%;
-  padding: 4%;
+  width: 72%;
 }
 
 .parrafoNosotros {
@@ -271,7 +294,6 @@ i {
   justify-content: space-evenly;
   height: auto;
   width: 100%;
-  height: 350px;
   padding: 5%;
 }
 
@@ -281,7 +303,6 @@ i {
   flex-wrap: nowrap;
   height: auto;
   width: 100%;
-  height: 100px;
   padding: 10px;
   align-items: center;
 }
@@ -291,7 +312,6 @@ i {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-content: space-between;
   padding: 10px;
   font-size: large;
   text-align: start;
@@ -323,7 +343,6 @@ i {
   padding: 10px;
   height: auto;
   width: 70%;
-  height: 500px;
 }
 
 .asideContacto {

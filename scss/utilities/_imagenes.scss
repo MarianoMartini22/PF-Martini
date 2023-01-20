@@ -5,7 +5,6 @@
     font-size: large;
     justify-content: space-evenly;
     @include ancho (100%);
-    height: 350px;
     padding: 5%;
 }
 
@@ -14,7 +13,6 @@
     flex-direction: column;
     flex-wrap: nowrap;
     @include ancho (100%);
-    height: 100px;
     padding: 10px;
     align-items: center
 }
@@ -24,7 +22,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-content: space-between;
     padding: 10px;
     font-size: large;
     text-align: start

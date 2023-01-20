@@ -42,6 +42,35 @@
         text-align: left;
     }
 
+    .imagenesNosotros {
+        width: 10px;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .parrafoNosotros {
+        width: 250px;
+        height: auto;
+    }
+
+    .obras_sociales {
+        width: 30%;
+        height: auto;
+        flex-direction: column;
+        margin: 100px;
+    }
+
+    .parrafoTurnos {
+        width: 30%;
+        height: auto;
+        text-justify: auto;
+    }
+
+    .requisitosTurnos {
+        width: 30%;
+        height: auto;
+    }
+
 }
 
 
@@ -95,8 +124,8 @@
     }
 
     .seguinosEn {
-        margin: 50%;
-        justify-items: left;
+
+        justify-items: center;
 
         p {
             text-align: center;
@@ -112,6 +141,11 @@
         display: flex;
         flex-direction: column;
         padding-top: 50px;
+    }
+
+    .requisitosTurnos {
+        width: 10%;
+        height: auto;
     }
 
 }

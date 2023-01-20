@@ -9,14 +9,10 @@
 .parrafoTurnos {
     display: flex;
     text-align: center;
-    flex-direction: row;
     justify-content: space-evenly;
     font-size: map-get($tamanoFuentes, larga);
-    font-variant-position: super;
-    height: 10px;
     margin: 10%;
-    @include ancho (80%);
-    padding: 4%
+    @include ancho (72%);
 }
 
 
@@ -36,7 +32,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    font-size: x-large;
+    font-size: map-get($tamanoFuentes, extraLarga);
     padding: 5%;
     line-height: 40px;
     font-style: italic
